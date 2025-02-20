@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods present in Forms</title>
+</head>
+<body>
+    <h1>Get and post methods</h1>
+    
+    <form action="https://httpbin.org/get" method="get">
+        <label for="name-get">Name:</label>
+        <input type="text" id="name-get" name="name"><br><br>
+        <label for="password-get">Password:</label>
+        <input type="password" id="password-get" name="password"><br><br>
+        <button type="submit">Submit (GET)</button>
+    </form>
+    
+    <hr>
+    
+    <form action="https://httpbin.org/post" method="post">
+        <label for="name-post">Name:</label>
+        <input type="text" id="name-post" name="name"><br><br>
+        <label for="password-post">Password:</label>
+        <input type="password" id="password-post" name="password"><br><br>
+        <button type="submit">Submit (POST)</button>
+    </form>
+</body>
+</html>
